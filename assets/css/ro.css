@@ -1,0 +1,94 @@
+body
+{
+	background-color:  #fdfdfd;
+
+}
+ #titre , .sous-titre{
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 color: #fdfdfd;
+	 
+ }
+table
+{
+ border-collapse : collapse;
+ margin-top : 60px;
+}
+td
+{
+ border : 1px solid black;
+ text-align : center;
+ font-size : 1.2em;
+ width : 150px;
+}
+.tdperso
+{
+ border : 1px solid black;
+ text-align : center;
+ font-size : 1.2em;
+ width : 75px;
+}
+
+.formValeur
+{
+ text-align : center;
+}
+.table_play
+{
+
+}
+.tot
+{
+
+ font-weight : bold;
+}
+.tard
+{
+
+ font-weight : bold;
+}
+#btnPause
+{
+	width: 50px;
+	height:30px;
+}
+a
+{
+	display : inline-block;
+}
+.messageShow
+{
+	width : 900px;
+	margin-left : auto;
+	margin-right : auto;
+	border-radius : 10px;
+	text-align: center;
+	font-size : 1.2em;
+	display:none;
+	vertical-align : center;
+}
+.borderTd
+{
+	border : rgb(237,28,36) solid 1px;
+}
+.element
+{
+	border-radius : 10px;
+	padding : 20px;
+}
+.titre 
+{
+	width : 900px;
+	margin-left : auto;
+	margin-right : auto;
+	font-size : 1.8em;
+	text-align: center;
+	color : rgb(255,0,0);
+	display : none;
+}
+.critik
+{
+	color : rgb(241, 6, 17);
+	font-weight : bold;
+}

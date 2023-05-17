@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/ro.css"/>
+<title>
+Ordonancement des taches
+</title>
+</head>
+<body>
+	<nav class="navbar sticky-top navbar-dark bg-dark">
+		<h2 id="titre">ORDONNANCEMENT DES TACHES</h2>
+		
+	</nav>
+	<div class="container-fluid">
+		
+	
+	<h1 class="titre"id="plusTard">Date au plus tard</h1>
+	<h1 class="titre"id="plusTot">Date au plus tôt</h1>
+	<div class="messageShow"></div>
+	<div>
+		<table id="dataInitial" class="table table-responsive">
+			<tbody><tr id="ligne_tache">
+			<td>Tâches</td>
+			</tr>
+			<tr id="ligne_duree">
+			<td>
+			Durée
+			</td>
+			</tr>
+			<tr id="ligne_anterieure">
+			<td>
+			T. ant.
+			</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div id="lancer" class="p5">
+		<button class="btn btn-primary" id="btnAjouter">Ajouter Tache</button>
+		<button class="btn btn-danger" id="btnAnnuler">Supprimer</button>
+		<button class="btn btn-primary" id="btnLancer" style="display:none;">Calculer</button>
+		<button class="btn btn-primary" id="btnNext" style="display:none">Date au  plus tard</button>
+		
+		<a href="RO.html"><img src="replay.png" id="btnReplay" style="display:none;"></a>
+		
+	</div>
+	<div id="div_affichage">
+		
+	</div>
+
+
+	</div>
+		
+<script src="assets/js/jquery.min.js" ></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+<body>
+
+</html>
